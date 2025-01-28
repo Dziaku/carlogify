@@ -129,4 +129,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 CSRF_TRUSTED_ORIGINS = ["http://127.0.0.1:8000"]
 
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = "index"
+LOGOUT_REDIRECT_URL = "index"
