@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from main.models import UserCar, Refuel
+
+admin.site.register(UserCar)
+admin.site.register(Refuel)
